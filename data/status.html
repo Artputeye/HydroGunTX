@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARTTECH</title>
+    <link rel="stylesheet" href="status.css" />
+    <link rel="stylesheet" href="substyle.css" />
+    <link rel="stylesheet" href="mainstyle.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="navbar-brand">
+        <a href="index.html" class="navbar-logo-link">
+          <span class="navbar-text">ARTTECH</span>
+        </a>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <div class="blockhead">
+        <div class="blockname">
+          <p class="namehead">STATUS</p>
+        </div>
+      </div>
+
+      <div class="blockcontent">
+        <div class="status-box">
+          <div class="status-info">
+            <span id="statusIcon">🔌</span>
+            <span id="statusText">Unconnect</span>
+          </div>
+          <div id="statusLamp" class="lamp lamp-off"></div>
+        </div>
+
+                <div class="status-box">
+          <div class="status-info">
+            <span>🔫 Fire</span>
+            <span id="fireText">OFF</span>
+          </div>
+          <div id="fireLamp" class="lamp lamp-off"></div>
+        </div>
+
+        <div class="status-box">
+          <span>🎮 Up - Down</span>
+          <span id="updownValue">0</span>
+        </div>
+        <div class="status-box">
+          <span>🎮 Left - Right</span>
+          <span id="leftrightValue">0</span>
+        </div>
+
+        <div class="status-box">
+          <span>📶 Signal</span>
+          <span id="signalValue">0</span>
+        </div>
+        <div class="status-box">
+          <span>📡 Loss</span>
+          <span id="lossValue">0%</span>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="status.js"></script>
+  </body>
+</html>
